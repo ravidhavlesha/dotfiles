@@ -1,0 +1,16 @@
+[user]
+	name = NAME
+	email = WORK_EMAIL
+
+[core]
+	fileMode = false
+
+[color]
+	ui = auto
+
+[color "status"]
+	changed = yellow
+	untracked = blue
+
+[includeIf "gitdir:/var/www/github.com/ravidhavlesha/"]
+    path = ~/.gitconfig_personal
