@@ -6,8 +6,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Fira Code Retina",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.formatOnSave": true,
+  "editor.fontSize": 17,
   "editor.glyphMargin": false,
   "editor.letterSpacing": 0,
   "editor.lineHeight": 24,
@@ -30,16 +29,18 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "turboConsoleLog.quote": "'",
   "update.showReleaseNotes": false,
-  "window.menuBarVisibility": "classic",
-  "window.zoomLevel": 0.7,
-  "workbench.colorTheme": "Monokai Pro",
+  "window.zoomLevel": 0.5,
   "workbench.editor.decorations.colors": false,
-  "workbench.iconTheme": "Monokai Pro Icons",
-  "workbench.sideBar.location": "right",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 24,
+  "workbench.activityBar.location": "bottom",
+  "workbench.sideBar.location": "right",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "zenMode.centerLayout": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -53,9 +54,19 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
-    "editor.formatOnType": true
+    "editor.defaultFormatter": "ms-python.autopep8"
   },
   "[yaml]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "window.customTitleBarVisibility": "auto",
+  "editor.formatOnSave": true,
+  "application.shellEnvironmentResolutionTimeout": 120,
+  "autopep8.args": ["--max-line-length", "120", "--experimental"],
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
   }
 }
