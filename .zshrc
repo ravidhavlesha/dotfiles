@@ -28,7 +28,7 @@ alias bc="cd ~/buildspace/clients"            # client freelance work
 alias bv="cd ~/buildspace/ventures"          # startup ideas & MVPs
 alias bp="cd ~/buildspace/blueprints"      # templates & boilerplates
 alias bl="cd ~/buildspace/learn"                # learning projects & tutorials
-alias bl="cd ~/buildspace/materials"        # resources, docs, assets
+alias bm="cd ~/buildspace/materials"        # resources, docs, assets
 
 # ------------------------------
 # 📂 Files & Listing
