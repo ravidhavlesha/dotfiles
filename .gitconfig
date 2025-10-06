@@ -1,0 +1,23 @@
+[user]
+    name = username
+    email = email
+
+[init]
+    defaultBranch = main
+
+[core]
+    fileMode = false
+
+[color]
+    ui = auto
+
+[color "status"]
+    added = green
+    changed = yellow
+    untracked = red bold
+
+[push]
+    default = current
+
+[fetch]
+    prune = true
