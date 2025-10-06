@@ -18,16 +18,17 @@ source "$(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.z
 # 📁 Navigation
 # ------------------------------
 
+alias ~="cd ~"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-alias buildspace="cd ~/buildspace"
-alias clients="cd ~/buildspace/clients"            # client freelance work
-alias ventures="cd ~/buildspace/ventures"          # startup ideas & MVPs
-alias blueprints="cd ~/buildspace/blueprints"      # templates & boilerplates
-alias learn="cd ~/buildspace/learn"                # learning projects & tutorials
-alias materials="cd ~/buildspace/materials"        # resources, docs, assets
+alias b="cd ~/buildspace"
+alias bc="cd ~/buildspace/clients"            # client freelance work
+alias bv="cd ~/buildspace/ventures"          # startup ideas & MVPs
+alias bp="cd ~/buildspace/blueprints"      # templates & boilerplates
+alias bl="cd ~/buildspace/learn"                # learning projects & tutorials
+alias bl="cd ~/buildspace/materials"        # resources, docs, assets
 
 # ------------------------------
 # 📂 Files & Listing
@@ -62,3 +63,4 @@ alias path="echo $PATH | tr ':' '\n'"
 alias ports="lsof -i -P -n | grep LISTEN"   # all open network ports system is listening
 alias ip="curl ifconfig.me"                 # public ip address
 alias clearhist="rm -f ~/.zsh_history"
+alias c="clear"
