@@ -3,7 +3,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorWidth": 4,
     "editor.defaultFormatter": "biomejs.biome",
-    "editor.fontFamily": "Fira Code",
+    "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.fontSize": 14,
     "editor.formatOnSave": true,
@@ -22,15 +22,17 @@
     "material-icon-theme.saturation": 0,
     "telemetry.feedback.enabled": false,
     "telemetry.telemetryLevel": "off",
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.fontSize": 12,
     "update.showReleaseNotes": false,
     "window.zoomLevel": 0.7,
     "workbench.activityBar.location": "bottom",
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "One Dark Pro Darker",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "none",
+    "workbench.tree.indent": 18,
+    "workbench.tree.renderIndentGuides": "always",
     "zenMode.centerLayout": false,
     "search.exclude": {
         "**/build": true,
@@ -54,5 +56,10 @@
     "python.analysis.typeCheckingMode": "standard",
     "editor.codeActions.triggerOnFocusChange": true,
     "interactiveWindow.executeWithShiftEnter": true,
-    "jupyter.interactiveWindow.textEditor.executeSelection": true
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "workbench.secondarySideBar.defaultVisibility": "visible",
+    "chat.tools.terminal.autoApprove": {
+        "pnpm": true
+    },
+    "workbench.fontAliasing": "auto"
 }
