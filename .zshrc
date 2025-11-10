@@ -23,13 +23,6 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 
-alias b="cd ~/buildspace"
-alias bc="cd ~/buildspace/clients"            # client freelance work
-alias bv="cd ~/buildspace/ventures"          # startup ideas & MVPs
-alias bp="cd ~/buildspace/blueprints"      # templates & boilerplates
-alias bl="cd ~/buildspace/learn"                # learning projects & tutorials
-alias bm="cd ~/buildspace/materials"        # resources, docs, assets
-
 # ------------------------------
 # 📂 Files & Listing
 # ------------------------------
@@ -64,3 +57,11 @@ alias ports="lsof -i -P -n | grep LISTEN"   # all open network ports system is l
 alias ip="curl ifconfig.me"                 # public ip address
 alias clearhist="rm -f ~/.zsh_history"
 alias c="clear"
+
+# pnpm
+export PNPM_HOME="/Users/ravidhavlesha/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
